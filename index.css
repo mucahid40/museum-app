@@ -1,0 +1,68 @@
+body {
+    background-color: #FFBA00; 
+}
+
+#a1,
+#a2,
+#a3,
+#a4,
+#a5,
+#a6,
+#a7 {
+    position: absolute;
+}
+
+#a1 {
+    left: 50%;
+    margin-left: -150px;
+    z-index: 1;
+}
+
+#a2 {
+    left: 50%;
+    margin-left: -32px;
+    transform: rotate(53deg);
+    top: 186px;
+    z-index: 1;
+}
+
+#a3 {
+    left: 50%;
+    margin-left: -7px;
+    transform: rotate(106deg);
+    top: 315px;
+    z-index: 1;
+}
+
+#a4 {
+    left: 50%;
+    margin-left: -96.5px;
+    transform: rotate(159deg);
+    top: 414px;
+    z-index: 1;
+}
+
+#a5 {
+    left: 50%;
+    margin-left: -227px;
+    transform: rotate(212deg);
+    top: 400px;
+    z-index: 1;
+}
+
+#a6 {
+    left: 50%;
+    margin-left: -295px;
+    transform: rotate(265deg);
+    top: 288px;
+    z-index: 1;
+}
+
+#a7 {
+    left: 50%;
+    margin-left: -250px;
+    transform: rotate(315deg);
+    top: 170px;
+    z-index: 0;
+}
+
