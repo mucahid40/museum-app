@@ -1,5 +1,6 @@
 body {
     background-color: #FFBA00; 
+    text-align: center;
 }
 
 #a1,
@@ -66,3 +67,8 @@ body {
     z-index: 0;
 }
 
+footer {
+    position: absolute;
+    left: 20px;
+    bottom: 1px;
+}
