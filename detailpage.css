@@ -20,6 +20,11 @@ h1 {
     margin: 2rem;
     border: solid 1.2px black;
     border-radius: 5px;
+    width: 50%;
+    left: 25%;
+    text-align: center;
+    box-sizing: border-box;
+    display: inline-block;
 }
 
 div {
