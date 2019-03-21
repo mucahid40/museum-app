@@ -325,7 +325,7 @@ const data = {
   }
 
 function painting() {
-    const hideMe = document.getElementById('myPaintings')
+    const hideMe = document.getElementById('myPaintings');
     hideMe.classList.toggle('hide')
     let paintings = data.artObjects;
 
@@ -337,6 +337,42 @@ function painting() {
         const from = "artObjects";
         const newAnchor = document.createElement('a');
         const newImage = document.createElement('img');
+        // const author = painting.principalOrFirstMaker
+        // const newLongTitle = painting.longTitle;
+        
+        // let i;
+
+        // when live gives you lemons!
+        // trying to get the date in another variable from the longtitle
+//         while (typeof newLongTitle[i] !== 'number'){
+//             i++;
+
+//             //if it finds a number
+//             if(typeof newLongTitle[i] == 'number'){
+//                 let i2 = 0;
+//                 var year;
+//                 //copy from that point to the end to another variable
+//                 while (newLongTitle[i] < newLongTitle.length) {
+//                     //which is a var that is famous for being able to cross the 4th dimension sometimes..
+                    
+//                     year[i2] = newLongTitle[i];
+//                     i++;
+//                     i2++;
+//                     function name() {
+    
+//                         // }     
+//                 }
+//                 break;
+//             }
+
+
+//             if(newLongTitle[i] == newLongTitle.length) {
+//                 i = 0;
+//                 break;
+//             }
+//         }
+
+//         console.log(year)
 
         {
             newAnchor.href = "./pages/detail-page.html";
