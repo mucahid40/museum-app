@@ -68,7 +68,11 @@ body {
 }
 
 footer {
-    position: absolute;
+    position: fixed;
     left: 20px;
     bottom: 1px;
+}
+
+.hide {
+    display: none;
 }
